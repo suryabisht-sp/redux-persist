@@ -27,7 +27,7 @@ const navigate = useNavigate()
       </div>
       <div className="px-6 py-4">
         <h2 className="text-xl font-semibold mb-2">{prod.title}</h2>
-        <p className="text-gray-600 text-base mb-4 truncate"
+        <p className="text-gray-600 text-base mb-4 truncate "
            style={{ maxWidth: '100%', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
           {prod.description}
         </p>
